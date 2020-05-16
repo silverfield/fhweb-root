@@ -6,6 +6,18 @@ import {isMobile} from '../helpers/combo-helper'
 import { withRouter } from "react-router";
 import {useState, useEffect, useContext, createContext} from "react"
 
+import musicBck from "../pics/music.png"
+import dsBck from "../pics/ds.png"
+import blogsBck from "../pics/blogs.jpg"
+import aboutBck from "../pics/about.jpg"
+
+import musicBckWhole from "../pics/music-whole.png"
+import dsBckWhole from "../pics/ds-whole.png"
+import blogsBckWhole from "../pics/blogs-whole.jpg"
+import aboutBckWhole from "../pics/about-whole.jpg"
+
+import blogOsloBck from "../pics/blog-oslo.jpg"
+
 import ScrollToTop from './ScrollToTop.js'
 
 const MenuItem = withRouter(MenuItemImp);
@@ -117,6 +129,48 @@ function NavBar({
     </>;
 }
 
+function BlogItem({
+    title,
+    link,
+    bck
+}) {
+    return <>
+        <div 
+            className="blog-item" 
+            href={link} 
+            style={{'backgroundImage': `url(${bck})`}} 
+        >
+            <span className="blog-title">{title}</span>
+        </div>
+    </>
+}
+
+function HeaderItem({
+    title,
+    bck,
+    bckWhole,
+    children
+}) {
+    const [expanded, setExpanded] = useState(title === 'Blogs' ? true : false);
+
+    return <>
+        <div 
+            className={"header-item" + (expanded ? ' expanded' : ' not-expanded')} 
+            style={{'backgroundImage': `url(${expanded ? bckWhole : bck})`}}
+        >
+            <div 
+                className="header-item-title"
+                onClick={() => setExpanded(!expanded)}
+            >
+                {title}
+            </div>
+            <div className="header-item-content">
+                {expanded ? children : <></> }
+            </div>
+        </div>
+    </>
+}
+
 function HeaderContentImp({
     location
 }) {
@@ -125,15 +179,67 @@ function HeaderContentImp({
 
     return (
         <>
-            <div className="header-item">
-                Music
-            </div>
-            <div className="header-item">
-                Data science
-            </div>
-            <div className="header-item">
-                Blogs
-            </div>
+            <HeaderItem 
+                title="Music"
+                bck={musicBck}
+                bckWhole={musicBckWhole}
+            >
+                <div className="content-item">
+                    <a href="https://music.ferohajnovic.com"><span className="title">music.ferohajnovic.com</span></a>
+                </div>
+                <div className="content-item">
+                    <span className="title">Social media</span>
+                    <div className="social-med-icons">
+                        <a href="https://www.facebook.com/feromusician" className="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/fero.hajnovic" className="fa fa-instagram"></a>
+                        <a href="https://soundcloud.com/ferohajnovic" className="fa fa-soundcloud"></a>
+                        <a href="https://www.youtube.com/channel/UCbFZJZ1bf8nMcLPJie5-mTA" className="fa fa-youtube"></a>
+                    </div>
+                </div>
+            </HeaderItem>
+            <HeaderItem 
+                title="Data science"
+                bck={dsBck}
+                bckWhole={dsBckWhole}
+            >
+
+            </HeaderItem>
+            <HeaderItem 
+                title="Blogs"
+                bck={blogsBck}
+                bckWhole={blogsBckWhole}
+            >
+                <div className="blogs">
+                    <BlogItem 
+                        title="Life in Oslo" 
+                        bck={blogOsloBck}
+                        link="http://zivotvosle.blogspot.com"
+                    />
+                    <BlogItem 
+                        title="Life in Oslo" 
+                        bck={blogOsloBck}
+                        link="http://zivotvosle.blogspot.com"
+                    />
+                    <BlogItem 
+                        title="Life in Oslo" 
+                        bck={blogOsloBck}
+                        link="http://zivotvosle.blogspot.com"
+                    />
+                    <BlogItem 
+                        title="Life in Oslo" 
+                        bck={blogOsloBck}
+                        link="http://zivotvosle.blogspot.com"
+                    />
+                </div>
+                
+            </HeaderItem>
+            <HeaderItem 
+                title="About"
+                bck={aboutBck}
+                bckWhole={aboutBckWhole}
+            >
+
+            </HeaderItem>
         </>
     );
   }
