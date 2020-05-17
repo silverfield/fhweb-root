@@ -1,4 +1,3 @@
-
 import {useState, useEffect, useContext, createContext} from "react"
 
 import musicBck from "../pics/music.png"
@@ -6,7 +5,6 @@ import dsBck from "../pics/ds.png"
 import blogsBck from "../pics/blogs.jpg"
 import aboutBck from "../pics/about.jpg"
 
-import musicWebBck from "../pics/music-web.png"
 import covidVisBck from "../pics/covid-vis.png"
 
 import musicBckWhole from "../pics/music-whole.png"
