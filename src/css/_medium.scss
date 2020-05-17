@@ -15,6 +15,7 @@
     }
 }
 
+
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
@@ -31,6 +32,25 @@ main {
         margin-right: 10px;
     }
 }
+
+.boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-item-wrap {
+    width: 300px;
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.title {
+    font-size: 1.5em !important;
+}
+
 
 
 /* ------------------------------------------------------------ */
