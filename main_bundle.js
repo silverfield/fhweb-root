@@ -32330,28 +32330,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pics_blogs_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_pics_blogs_jpg__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _pics_about_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../pics/about.jpg */ "./src/pics/about.jpg");
 /* harmony import */ var _pics_about_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_pics_about_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _pics_music_web_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pics/music-web.png */ "./src/pics/music-web.png");
-/* harmony import */ var _pics_music_web_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pics_music_web_png__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pics/covid-vis.png */ "./src/pics/covid-vis.png");
-/* harmony import */ var _pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _pics_music_whole_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../pics/music-whole.png */ "./src/pics/music-whole.png");
-/* harmony import */ var _pics_music_whole_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_pics_music_whole_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../pics/ds-whole.png */ "./src/pics/ds-whole.png");
-/* harmony import */ var _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../pics/blogs-whole.jpg */ "./src/pics/blogs-whole.jpg");
-/* harmony import */ var _pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../pics/about-whole.jpg */ "./src/pics/about-whole.jpg");
-/* harmony import */ var _pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../pics/blog-oslo.jpg */ "./src/pics/blog-oslo.jpg");
-/* harmony import */ var _pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../pics/blog-pizza.jpg */ "./src/pics/blog-pizza.jpg");
-/* harmony import */ var _pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../pics/blog-writes.jpg */ "./src/pics/blog-writes.jpg");
-/* harmony import */ var _pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../pics/blog-africa.jpg */ "./src/pics/blog-africa.jpg");
-/* harmony import */ var _pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../pics/blog-streetplay.jpeg */ "./src/pics/blog-streetplay.jpeg");
-/* harmony import */ var _pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../pics/covid-vis.png */ "./src/pics/covid-vis.png");
+/* harmony import */ var _pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _pics_music_whole_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pics/music-whole.png */ "./src/pics/music-whole.png");
+/* harmony import */ var _pics_music_whole_png__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_pics_music_whole_png__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../pics/ds-whole.png */ "./src/pics/ds-whole.png");
+/* harmony import */ var _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../pics/blogs-whole.jpg */ "./src/pics/blogs-whole.jpg");
+/* harmony import */ var _pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../pics/about-whole.jpg */ "./src/pics/about-whole.jpg");
+/* harmony import */ var _pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../pics/blog-oslo.jpg */ "./src/pics/blog-oslo.jpg");
+/* harmony import */ var _pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../pics/blog-pizza.jpg */ "./src/pics/blog-pizza.jpg");
+/* harmony import */ var _pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../pics/blog-writes.jpg */ "./src/pics/blog-writes.jpg");
+/* harmony import */ var _pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../pics/blog-africa.jpg */ "./src/pics/blog-africa.jpg");
+/* harmony import */ var _pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../pics/blog-streetplay.jpeg */ "./src/pics/blog-streetplay.jpeg");
+/* harmony import */ var _pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_14__);
 function _objectDestructuringEmpty(obj) { if (obj == null) throw new TypeError("Cannot destructure undefined"); }
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
@@ -32361,7 +32359,6 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
 
 
 
@@ -32437,7 +32434,7 @@ function Main(_ref3) {
     title: "Music",
     note: "Studio and live recordings of originals, covers, collaborations...",
     bck: _pics_music_png__WEBPACK_IMPORTED_MODULE_1___default.a,
-    bckWhole: _pics_music_whole_png__WEBPACK_IMPORTED_MODULE_7___default.a
+    bckWhole: _pics_music_whole_png__WEBPACK_IMPORTED_MODULE_6___default.a
   }, React.createElement("div", {
     className: "content-item"
   }, React.createElement("a", {
@@ -32469,7 +32466,7 @@ function Main(_ref3) {
     title: "Data science",
     note: "My online portfolio in data science or the general tech/data space",
     bck: _pics_ds_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    bckWhole: _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_8___default.a
+    bckWhole: _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_7___default.a
   }, React.createElement("div", {
     className: "content-item"
   }, React.createElement("a", {
@@ -32483,46 +32480,46 @@ function Main(_ref3) {
     className: "boxes"
   }, React.createElement(BoxItem, {
     title: "Covid-19 vis",
-    bck: _pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_6___default.a,
+    bck: _pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     link: "http://covid-vis.ferohajnovic.com/",
     note: "Interactive visualisations of Covid-19 based on dc.js"
   }))), React.createElement(MainItem, {
     title: "Blogs",
     note: "My online blogs on various topics",
     bck: _pics_blogs_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
-    bckWhole: _pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_9___default.a
+    bckWhole: _pics_blogs_whole_jpg__WEBPACK_IMPORTED_MODULE_8___default.a
   }, React.createElement("div", {
     className: "boxes"
   }, React.createElement(BoxItem, {
     title: "A Slice of Life",
-    bck: _pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_12___default.a,
+    bck: _pics_blog_pizza_jpg__WEBPACK_IMPORTED_MODULE_11___default.a,
     link: "http://ferovpizzaquest.blogspot.com/",
     note: "The quest to find the best pizza in the world... And stories along the way"
   }), React.createElement(BoxItem, {
     title: "Fero writes",
-    bck: _pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_13___default.a,
+    bck: _pics_blog_writes_jpg__WEBPACK_IMPORTED_MODULE_12___default.a,
     link: "http://ferowrites.blogspot.com/",
     note: "Blog about anything and everything..."
   }), React.createElement(BoxItem, {
     title: "Street play tour 2015",
-    bck: _pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_15___default.a,
+    bck: _pics_blog_streetplay_jpeg__WEBPACK_IMPORTED_MODULE_14___default.a,
     link: "http://ferostreetplay.blogspot.com/",
     note: "About the busking tour of Northern Europe in June 2015"
   }), React.createElement(BoxItem, {
     title: "Africa",
-    bck: _pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_14___default.a,
+    bck: _pics_blog_africa_jpg__WEBPACK_IMPORTED_MODULE_13___default.a,
     link: "http://feroafrica.blogspot.com/",
     note: "From the 4 months I spent in Ghana in 2015"
   }), React.createElement(BoxItem, {
     title: "Life in Oslo",
-    bck: _pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_11___default.a,
+    bck: _pics_blog_oslo_jpg__WEBPACK_IMPORTED_MODULE_10___default.a,
     link: "http://zivotvosle.blogspot.com",
     note: "My blogging entry ticket - from the time I spent in Norway (most of this blog is in Slovak)"
   }))), React.createElement(MainItem, {
     title: "About",
     note: "More about this page and me...",
     bck: _pics_about_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
-    bckWhole: _pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_10___default.a
+    bckWhole: _pics_about_whole_jpg__WEBPACK_IMPORTED_MODULE_9___default.a
   }, React.createElement("div", {
     className: "content-item"
   }, "Hi visitor of this page!"), React.createElement("div", {
@@ -32741,17 +32738,6 @@ module.exports = __webpack_require__.p + "b2a5319929247619a37c6ca8e1570319.png";
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "57aadc1f64410d1997772571e5280a5b.png";
-
-/***/ }),
-
-/***/ "./src/pics/music-web.png":
-/*!********************************!*\
-  !*** ./src/pics/music-web.png ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "f6511544c3605e4cc7fd8f235ae98850.png";
 
 /***/ }),
 
