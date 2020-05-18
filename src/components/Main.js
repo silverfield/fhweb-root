@@ -94,7 +94,7 @@ export default function Main({
                 </div>
             </MainItem>
             <MainItem 
-                title="Data science"
+                title="Data & tech"
                 note="My online portfolio in data science or the general tech/data space"
                 bck={dsBck}
                 bckWhole={dsBckWhole}
