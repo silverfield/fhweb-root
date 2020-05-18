@@ -32463,7 +32463,7 @@ function Main(_ref3) {
     href: "https://www.youtube.com/channel/UCbFZJZ1bf8nMcLPJie5-mTA",
     className: "fa fa-youtube"
   })))), React.createElement(MainItem, {
-    title: "Data science",
+    title: "Data & tech",
     note: "My online portfolio in data science or the general tech/data space",
     bck: _pics_ds_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     bckWhole: _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_7___default.a
