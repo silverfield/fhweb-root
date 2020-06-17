@@ -100,7 +100,8 @@ export default function Main({
                         link="http://covid-vis.ferohajnovic.com/"
                         note={<>
                             (hobby project)<br/>
-                            Interactive visualisations of Covid-19 based on dc.js
+                            Interactive visualisations of Covid-19 based on dc.js<br/>
+                            See the <a href="https://github.com/silverfield/corona-vis">code on github</a>
                         </>}
                     />
                 </div>
