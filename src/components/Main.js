@@ -6,6 +6,8 @@ import blogsBck from "../pics/blogs.jpg"
 import aboutBck from "../pics/about.jpg"
 
 import covidVisBck from "../pics/covid-vis.png"
+import traVisBck from "../pics/tra-vis.png"
+import qBankBck from "../pics/q-bank.png"
 
 import musicBckWhole from "../pics/music-whole.png"
 import dsBckWhole from "../pics/ds-whole.png"
@@ -22,18 +24,21 @@ function BoxItem({
     title,
     link,
     bck,
-    note
+    note,
+    fixHeight=null
 }) {
     return <>
-        <div className="box-item-wrap">
-            <a 
+        <div 
+            className="box-item-wrap"
+            style={fixHeight ? {'height': fixHeight} : null}
+        >
+            <div
                 className="box-item" 
-                href={link} 
                 style={{'backgroundImage': `url(${bck})`}} 
             >
-                <span className="box-title">{title}</span>
+                <a href={link} className="box-title">{title}</a>
                 <span className="box-note">{note}</span>
-            </a>
+            </div>
         </div>
     </>
 }
@@ -43,9 +48,10 @@ function MainItem({
     note,
     bck,
     bckWhole,
+    expandedDef=false,
     children
 }) {
-    const [expanded, setExpanded] = useState(false);
+    const [expanded, setExpanded] = useState(expandedDef);
 
     return <>
         <div 
@@ -72,6 +78,59 @@ export default function Main({
     return (
         <>
             <MainItem 
+                title="Data & tech"
+                note="My online portfolio in data science or the general tech/data space"
+                bck={dsBck}
+                bckWhole={dsBckWhole}
+                expandedDef={true}
+            >
+                <div className="content-item">
+                    <a className="zoom-link" href="https://medium.com/@ferohajnovic">
+                        <span className="title">medium.com/@ferohajnovic</span>
+                    </a>
+                    <span className="box-note">(my Medium blog-space)</span>
+                </div>
+                <div className="content-item">
+                    <span className="title">My online projects:</span>
+                </div>
+                <div className="boxes">
+                    <BoxItem 
+                        title="Covid-19 vis. dashboard" 
+                        bck={covidVisBck}
+                        link="http://covid-vis.ferohajnovic.com/"
+                        note={<>
+                            (hobby project)<br/>
+                            Interactive visualisations of Covid-19 based on dc.js
+                        </>}
+                    />
+                </div>
+                <div className="boxes">
+                    <BoxItem 
+                        title="Automatic interview transcription" 
+                        bck={traVisBck}
+                        link="https://onsbigdata.github.io/dcm-transcripts-new/travis/dist/index.html"
+                        note={<>
+                            (from working at ONS)<br/>
+                            Automatic transcriptions of interview recordings to the structured transcripts<br/>
+                            See the <a href="https://github.com/ONSBigData/dcm-transcripts-new">code on github</a>
+                        </>}
+                    />
+                </div>
+                <div className="boxes">
+                    <BoxItem 
+                        title="Question similarities dashboard" 
+                        bck={qBankBck}
+                        link="https://qbank-main.herokuapp.com/"
+                        note={<>
+                            (from working at ONS)<br/>
+                            NLP project, looking for semantic/syntactic similarities in business surveys question<br/>
+                            See the <a href="https://github.com/ONSBigData/qbank-tools">code on github</a> <br/>
+                            <i>Note: the app may take a while to load as it uses free Heroku tier</i>
+                        </>}
+                    />
+                </div>
+            </MainItem>
+            <MainItem 
                 title="Music"
                 note="Studio and live recordings of originals, covers, collaborations..."
                 bck={musicBck}
@@ -94,27 +153,6 @@ export default function Main({
                 </div>
             </MainItem>
             <MainItem 
-                title="Data & tech"
-                note="My online portfolio in data science or the general tech/data space"
-                bck={dsBck}
-                bckWhole={dsBckWhole}
-            >
-                <div className="content-item">
-                    <a className="zoom-link" href="https://medium.com/@ferohajnovic">
-                        <span className="title">medium.com/@ferohajnovic</span>
-                    </a><br/>
-                    <span className="box-note">My Medium blog-space</span>
-                </div>
-                <div className="boxes">
-                    <BoxItem 
-                        title="Covid-19 vis" 
-                        bck={covidVisBck}
-                        link="http://covid-vis.ferohajnovic.com/"
-                        note="Interactive visualisations of Covid-19 based on dc.js"
-                    />
-                </div>
-            </MainItem>
-            <MainItem 
                 title="Blogs"
                 note="My online blogs on various topics"
                 bck={blogsBck}
@@ -126,30 +164,35 @@ export default function Main({
                         bck={blogPizzaBck}
                         link="http://ferovpizzaquest.blogspot.com/"
                         note="The quest to find the best pizza in the world... And stories along the way"
+                        fixHeight='120px'
                     />
                     <BoxItem 
                         title="Fero writes" 
                         bck={blogWritesBck}
                         link="http://ferowrites.blogspot.com/"
                         note="Blog about anything and everything..."
+                        fixHeight='120px'
                     />
                     <BoxItem 
                         title="Street play tour 2015" 
                         bck={blogStreetplayBck}
                         link="http://ferostreetplay.blogspot.com/"
                         note="About the busking tour of Northern Europe in June 2015"
+                        fixHeight='120px'
                     />
                     <BoxItem 
                         title="Africa" 
                         bck={blogAfricaBck}
                         link="http://feroafrica.blogspot.com/"
                         note="From the 4 months I spent in Ghana in 2015"
+                        fixHeight='120px'
                     />
                     <BoxItem 
                         title="Life in Oslo" 
                         bck={blogOsloBck}
                         link="http://zivotvosle.blogspot.com"
                         note="My blogging entry ticket - from the time I spent in Norway (most of this blog is in Slovak)"
+                        fixHeight='120px'
                     />
                 </div>
                 
