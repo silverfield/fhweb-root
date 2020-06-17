@@ -32468,7 +32468,9 @@ function Main(_ref3) {
     title: "Covid-19 vis. dashboard",
     bck: _pics_covid_vis_png__WEBPACK_IMPORTED_MODULE_5___default.a,
     link: "http://covid-vis.ferohajnovic.com/",
-    note: React.createElement(React.Fragment, null, "(hobby project)", React.createElement("br", null), "Interactive visualisations of Covid-19 based on dc.js")
+    note: React.createElement(React.Fragment, null, "(hobby project)", React.createElement("br", null), "Interactive visualisations of Covid-19 based on dc.js", React.createElement("br", null), "See the ", React.createElement("a", {
+      href: "https://github.com/silverfield/corona-vis"
+    }, "code on github"))
   })), React.createElement("div", {
     className: "boxes"
   }, React.createElement(BoxItem, {
