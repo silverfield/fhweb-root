@@ -91,7 +91,7 @@ export default function Main({
                     <span className="box-note">(my Medium blog-space)</span>
                 </div>
                 <div className="content-item">
-                    <span className="title">My online projects:</span>
+                    <span className="title">Projects:</span>
                 </div>
                 <div className="boxes">
                     <BoxItem 
