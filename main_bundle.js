@@ -32462,7 +32462,7 @@ function Main(_ref3) {
     className: "content-item"
   }, React.createElement("span", {
     className: "title"
-  }, "My online projects:")), React.createElement("div", {
+  }, "Projects:")), React.createElement("div", {
     className: "boxes"
   }, React.createElement(BoxItem, {
     title: "Covid-19 vis. dashboard",
