@@ -44,19 +44,24 @@ function BoxItem({
 }
 
 function MainItem({
+    id,
     title,
     note,
     bck,
     bckWhole,
-    expandedDef=false,
+    expandedDef=null,
     children
 }) {
+    if (expandedDef === null) {
+        expandedDef = window.location.href.endsWith('#' + id);
+    }
     const [expanded, setExpanded] = useState(expandedDef);
 
     return <>
         <div 
             className={"main-item" + (expanded ? ' expanded' : ' not-expanded')} 
             style={{'backgroundImage': `url(${expanded ? bckWhole : bck})`}}
+            id={title}
         >
             <div 
                 className="main-item-title"
@@ -77,12 +82,12 @@ export default function Main({
 
     return (
         <>
-            <MainItem 
+            <MainItem
+                id='data'
                 title="Data & tech"
                 note="My online portfolio in data science or the general tech/data space"
                 bck={dsBck}
                 bckWhole={dsBckWhole}
-                expandedDef={true}
             >
                 <div className="content-item">
                     <a className="zoom-link" href="https://medium.com/@ferohajnovic">
@@ -131,7 +136,8 @@ export default function Main({
                     />
                 </div>
             </MainItem>
-            <MainItem 
+            <MainItem
+                id='music'
                 title="Music"
                 note="Studio and live recordings of originals, covers, collaborations..."
                 bck={musicBck}
@@ -153,7 +159,8 @@ export default function Main({
                     </div>
                 </div>
             </MainItem>
-            <MainItem 
+            <MainItem
+                id='blogs'
                 title="Blogs"
                 note="My online blogs on various topics"
                 bck={blogsBck}
@@ -198,7 +205,8 @@ export default function Main({
                 </div>
                 
             </MainItem>
-            <MainItem 
+            <MainItem
+                id='about'
                 title="About"
                 note="More about this page and me..."
                 bck={aboutBck}
