@@ -32408,13 +32408,18 @@ function BoxItem(_ref) {
 }
 
 function MainItem(_ref2) {
-  var title = _ref2.title,
+  var id = _ref2.id,
+      title = _ref2.title,
       note = _ref2.note,
       bck = _ref2.bck,
       bckWhole = _ref2.bckWhole,
       _ref2$expandedDef = _ref2.expandedDef,
-      expandedDef = _ref2$expandedDef === void 0 ? false : _ref2$expandedDef,
+      expandedDef = _ref2$expandedDef === void 0 ? null : _ref2$expandedDef,
       children = _ref2.children;
+
+  if (expandedDef === null) {
+    expandedDef = window.location.href.endsWith('#' + id);
+  }
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(expandedDef),
       _useState2 = _slicedToArray(_useState, 2),
@@ -32425,7 +32430,8 @@ function MainItem(_ref2) {
     className: "main-item" + (expanded ? ' expanded' : ' not-expanded'),
     style: {
       'backgroundImage': "url(".concat(expanded ? bckWhole : bck, ")")
-    }
+    },
+    id: title
   }, React.createElement("div", {
     className: "main-item-title",
     onClick: function onClick() {
@@ -32444,11 +32450,11 @@ function Main(_ref3) {
   _objectDestructuringEmpty(_ref3);
 
   return React.createElement(React.Fragment, null, React.createElement(MainItem, {
+    id: "data",
     title: "Data & tech",
     note: "My online portfolio in data science or the general tech/data space",
     bck: _pics_ds_png__WEBPACK_IMPORTED_MODULE_2___default.a,
-    bckWhole: _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_9___default.a,
-    expandedDef: true
+    bckWhole: _pics_ds_whole_png__WEBPACK_IMPORTED_MODULE_9___default.a
   }, React.createElement("div", {
     className: "content-item"
   }, React.createElement("a", {
@@ -32490,6 +32496,7 @@ function Main(_ref3) {
       href: "https://github.com/ONSBigData/qbank-tools"
     }, "code on github"), " ", React.createElement("br", null), React.createElement("i", null, "Note: the app may take a while to load as it uses free Heroku tier"))
   }))), React.createElement(MainItem, {
+    id: "music",
     title: "Music",
     note: "Studio and live recordings of originals, covers, collaborations...",
     bck: _pics_music_png__WEBPACK_IMPORTED_MODULE_1___default.a,
@@ -32522,6 +32529,7 @@ function Main(_ref3) {
     href: "https://www.youtube.com/channel/UCbFZJZ1bf8nMcLPJie5-mTA",
     className: "fa fa-youtube"
   })))), React.createElement(MainItem, {
+    id: "blogs",
     title: "Blogs",
     note: "My online blogs on various topics",
     bck: _pics_blogs_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
@@ -32559,6 +32567,7 @@ function Main(_ref3) {
     note: "My blogging entry ticket - from the time I spent in Norway (most of this blog is in Slovak)",
     fixHeight: "120px"
   }))), React.createElement(MainItem, {
+    id: "about",
     title: "About",
     note: "More about this page and me...",
     bck: _pics_about_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
