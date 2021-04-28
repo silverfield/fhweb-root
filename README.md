@@ -2,7 +2,7 @@
 
 My personal web
 
-Go to [the site](https://www.ferohajnovic.com/)
+Go to [the site](https://ferohajnovic.com/)
 
 
 ## Installation & run
