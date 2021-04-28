@@ -1,7 +1,7 @@
 rm -rf dist
 ./node_modules/.bin/webpack
 
-base_dir=~/wspace/fhweb/root-web
+base_dir=~/wspace/fhweb-root
 
 git stash
 git checkout gh-pages || git checkout -b gh-pages
