@@ -1,7 +1,7 @@
 rm -rf dist
 ./node_modules/.bin/webpack
 
-base_dir=~/wspace/fhweb-root
+base_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 git stash
 git checkout gh-pages || git checkout -b gh-pages
